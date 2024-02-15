@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: vazir;
+    src: url(./Vazir-Bold.ttf);
+}
+body{
+    font-family: vazir;
+}
+.parent-div {
+	margin: auto;
+	padding: 30px 50px;
+	max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back-div {
+	background-color: hsl(240, 100%, 50%);
+    height: 420px;
+}
+.login {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 885px;
+    padding:  50px 0;
+    
+    box-shadow: rgb(71, 71, 71) 0px 8px 24px;
+    border-radius: 30px;
+}
+.user{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.user p{
+    display: inline;
+    padding: 0 30px;
+}
+.user .span{
+    
+    display: inline-block;
+    
+    
+}
+.user-name{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name p {
+    padding: 11px 50px ;
+    text-align: end;
+} 
+.name :nth-child(2){
+    color: rgb(206, 205, 205);
+}
+.icon{
+    width:88px;
+    height: 94px;
+    background-color:rgb(143, 143, 143) ;
+    border-radius: 7px;
+}
+hr{
+    width: 85%;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+.buttom-div{
+    padding: 0 30px;
+}
+.buttom-div button{
+    width: 60px;
+    padding: 7px 12px;
+    background-color: rgb(206, 205, 205);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.items {
+    width: 500px;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(2 ,200px);    
+    grid-gap: 30px;
+}
+.item :first-child {
+    width: 50px;
+    
+}
+.item{
+    width: 190px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 79, 159);
+    border-radius: 10px;
+}
+.back-div {
+    content: "";
+    width: 87%;
+    background-color: rgb(30, 79, 159);
+    height: 16px;
+    border-top-right-radius: 40px; 
+    border-top-left-radius: 40px; ;
+   
+}
+.botton-back-div {
+    content: "";
+    width: 87%;
+    background-color: rgb(30, 79, 159);
+    height: 16px;
+    
+    border-bottom-right-radius: 40px; 
+    border-bottom-left-radius: 40px; ;
+ 
+}
